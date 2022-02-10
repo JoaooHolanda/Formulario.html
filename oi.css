@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@JoaooHolanda 
+JoaooHolanda
+/
+teste
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+teste/oi.css
+@JoaooHolanda
+JoaooHolanda added
+Latest commit 980f27d 5 hours ago
+ History
+ 1 contributor
+133 lines (108 sloc)  1.94 KB
+   
 *{
     padding: 0;
     margin: 0;
@@ -129,5 +158,6 @@ fieldset.button-box {
 }
 
 .social-media{
-
+        display: flex;
+        justify-content: center;
 }
