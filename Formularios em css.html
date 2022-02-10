@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="oi.css" media="screen">
+    <title>Formulário</title>
+    
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+
+   
+   
+   
+    <fieldset class="oi">   
+       <fieldset class="First">
+        <img class="fotologo" src="cmsa.jpg" height="100" width="100" >
+        <h1 id="titulo"><strong>Comunidade</strong></h1>
+        <h1 id="titulo3"><strong>Mariana</strong></h1>
+        <h1 id="titulo2"><strong>Sagrado Amor</strong></h1>
+        <h2 id="carisma">"Dar a conhecer o Amor a todo coração pobre"❤️</h2>
+        <h3 id="assunto"><strong>Seja um Benfeitor</strong></h3>
+       </fieldset>
+      <br>
+    
+      
+
+       <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for=nome><strong>Nome :</strong></label>
+                <input type="text" name="nome" id="nome" required placeholder="ex:. Ana Vitória">
+                
+                <label for="sobrenome"><strong>Sobrenome :</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required placeholder="ex:. Silva">
+            </div>
+            </div>
+        </fieldset>
+       
+      <fieldset class="grupo">  <div class="campo">
+        <label for="idade"><strong>Idade :</strong></label>
+        <input type="number" name="idade" id="idade"required placeholder="ex:. 19 anos">
+         </div>
+        </fieldset>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="Data de Nascimento"><strong>Data de Nascimento :</strong></label>
+                <input type="date" name="data" id="data" required>
+            </div>
+        </fieldset>
+
+      <fieldset class="grupo">
+        <div class="campo">
+            <label for="email"><strong>Email :</strong></label>
+            <input type="email" nome="email" id="sobrenome" required placeholder="ex:.joopedro@gmail.com"> 
+        </div>
+      </fieldset>
+
+      <fieldset class="grupo">
+        <div class="campo">
+            <label for="turma"><strong>Qual grupo você participa?</strong></label>
+            <input type="radio" name="group" id="Vocacional" checked><label>Vocacional</label>
+            <input type="radio" name="group" id="Postulantado"><label>Postulantado</label>
+            <input type="radio" name="group" id="Discipulado 1"><label>Discipulado 1</label>
+            <input type="radio" name="group" id="Discipulado 2"><label>Discipulado 2</label>
+            <input type="radio" name="group" id="Consa"><label>Consagrado</label>
+        </div>
+        </fieldset>
+        
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="Telefone"><strong>Telefone(WhatsApp) :</strong></label>
+                <input type="tel" id="telefone"  required placeholder="(DD) xxxxx-xxxx">
+            </div>
+            </fieldset>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="endereço"><strong>Endereço (Rua, Nº, Bairro, Cidade e Estado)  :</strong></label>
+                    <input type="text" name="end" id="endereco" required placeholder="ex:. Rua carolino Aquino">
+                </div>
+            </fieldset>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="valor"><strong>Valor da Contribuição :</strong></label>
+                <input type="text" name="valor" id="valor" required placeholder="R$">
+            </div>
+        </fieldset>
+
+        <fieldset clas="grupo">
+            <div class="campo">
+                <label for="dia"><strong>Qual dia do mês ?</strong></label>
+                <input type="radio" name="dia" id="Dia1" checked><label for="Dia1">Dia 5</label>
+                <input type="radio" name="dia" id="Dia2"><label for="Dia1">Dia 10</label>
+                <input type="radio" name="dia" id="Dia3"><label for="Dia1">Outro</label> <input type="number" name="outro" id="outro" required placeholder="ex:. Dia 8">
+            </div>
+        </fieldset>
+      
+        <fieldset class="gurpo">
+            <div class="campo">
+                <Label for="intencoes"><strong>Intenções :</strong></LAbel>
+                <textarea rows="6" style="width: 26em;" id="intencoes" name="intencoes" required placeholder="Coloque suas intenções..."></textarea>    
+            </div>
+            
+            <fieldset>
+                
+                <button class="botao" type="submit" onsubmit=""><strong>Enviar</strong></button>
+
+               
+            
+        </fieldset>
+        <fieldset>
+            <a  href="https://www.instagram.com/com.sagradoamor/"><img class = "logo" src="instagram (1).png" class="media-object  img-responsive img-thumbnail" height="25" width="25"></a>
+            <a href="https://linktr.ee/com.sagradoamor"><img class = "logo" src="Linktr_logo.png" class="media-object  img-responsive img-thumbnail" height="25" width="25"></a>
+        </fieldset>
+
+    
+      </fieldset>
+    </form>
+        
+        
+
+       
+   
+   
+</body>
+</html>

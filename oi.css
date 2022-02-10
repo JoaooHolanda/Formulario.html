@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ 
+#titulo{
+    font-family: monospace;
+    color: #8B0000;
+    font-size: 1.21cm;
+    margin-left: 3cm;
+    margin-top: -2.5cm;
+    
+}
+
+#titulo3{
+    font-family: monospace;
+    color: #8B0000;
+    font-size: 1.21cm;
+    margin-left: 4cm;
+    margin-top: -0.4cm;
+
+}
+
+#titulo2 {
+    color: #8B0000;
+    margin-left: 1.75cm;
+    font-family: monospace;
+    font-size: 1.21cm;
+    margin-top: -0.54cm;
+    margin-left: 2.5cm;
+
+}
+
+#carisma{
+    font-family: monospace;
+    color: rgb(176, 184, 24);
+    font-size: 0.42cm;
+    margin-left: 0.6cm;
+}
+
+
+#assunto {
+    font-size: 1.2cm;
+    font-family: monospace ;
+    margin-left: 0.4cm;
+}
+
+#redes{
+font-family: monospace;
+font-size: 0.5cm;
+margin-left: 3.5cm;
+}
+
+body{
+    background-color: #f7dad9;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #69313b;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+
+.campo{
+   
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 0.2cm;
+ 
+  
+}
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #b31010;
+    border-radius: 4px;
+}
+.grupo:after {
+    clear: both;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #bb3821;
+    display: block;
+}
+
+.oi{
+    width: 500px;
+    height: 1000px;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.3em;
+    border: 2px solid none;
+    box-shadow: 2px 2px 2px none;
+    display: block;
+}
+.First{
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 0.2cm;
+}
+
+
+.fotologo{
+    border-radius: 3cm;
+    margin-bottom:-8px;
+}
+#logo{
+    
+    background-image: none;
+    margin-left:10cm;
+}
+.botao{
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 0.2cm;
+    
+}
+
+
