@@ -14,7 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
    
-
+    
+     </script>
    
    
    
@@ -24,11 +25,8 @@
         <h1 id="titulo"><strong>Comunidade</strong></h1>
         <h1 id="titulo3"><strong>Mariana</strong></h1>
         <h1 id="titulo2"><strong>Sagrado Amor</strong></h1>
-        <fieldset class="social-media">
-            <a  href="https://www.instagram.com/com.sagradoamor/"><img class = "logo" src="instagram (1).png" class="media-object  img-responsive img-thumbnail" height="25" width="25"></a>
-            <a href="https://linktr.ee/com.sagradoamor"><img class = "logo" src="Linktr_logo.png" class="media-object  img-responsive img-thumbnail" height="25" width="25"></a>
-        </fieldset>
-        <h2 id="carisma">"Dar a conhecer o Amor a todo coração pobre"❤️</h2>
+        
+        <h2 id="carisma">"Dar a conhecer o Amor a todo coração pobre"</h2>
         <h3 id="assunto"><strong>Seja um Benfeitor</strong></h3>
        </fieldset>
       <br>
@@ -49,7 +47,15 @@
        
       <fieldset class="grupo">  <div class="campo">
         <label for="idade"><strong>Idade :</strong></label>
-        <input type="number" name="idade" id="idade"required placeholder="ex:. 19 anos">
+        <select id="idade">
+            <option selected disabled value="">Selecione</option>
+            <option>7 a 15</option>
+            <option>16 a 25</option>
+            <option>26 a 37</option>
+            <option>38 a 49</option>
+            <option>50 a 60</option>
+            <option>61 a 99</option>
+        </select>
          </div>
         </fieldset>
 
@@ -95,6 +101,16 @@
             <div class="campo">
                 <label for="valor"><strong>Valor da Contribuição :</strong></label>
                 <input type="text" name="valor" id="valor" required placeholder="R$">
+            </div>
+        </fieldset>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for='metodos'><strong>Forma de Pagamentos :</strong></label>
+                <input type="radio" name="metodos" id="pix" checked><label for="pix">Pix</label>
+                <input type="radio" name="metodos" id="boleto" checked><label for="boleto">Boleto Bancário</label>
+                <input type="radio" name="metodos" id="transferencia" checked><label for="transferencia">Transferência Bancária</label>
+                <input type="radio" name="dia" id="Dia3"><label for="Dia1">Outro</label> <input type="number" name="outro" id="outro" >
             </div>
         </fieldset>
 
