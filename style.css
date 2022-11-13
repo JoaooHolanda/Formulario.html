@@ -84,6 +84,7 @@ input, select, textarea, button {
 .flexbox{
     width: 500px;
     height: 1000px;
+    font-family: 'Baloo 2', serif;
 }
 
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
