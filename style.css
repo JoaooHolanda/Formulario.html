@@ -1,83 +1,42 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@JoaooHolanda 
-JoaooHolanda
-/
-teste
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-teste/oi.css
-@JoaooHolanda
-JoaooHolanda added
-Latest commit 980f27d 5 hours ago
- History
- 1 contributor
-133 lines (108 sloc)  1.94 KB
    
 *{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
- 
-#titulo{
-    font-family: monospace;
-    color: #8B0000;
-    font-size: 1.21cm;
-    margin-left: 3cm;
-    margin-top: -2.5cm;
-    
+.box{
+    padding: 6px;
 }
-
-#titulo3{
-    font-family: monospace;
-    color: #8B0000;
-    font-size: 1.21cm;
-    margin-left: 4cm;
-    margin-top: -0.4cm;
-
-}
-
-#titulo2 {
-    color: #8B0000;
-    margin-left: 1.75cm;
-    font-family: monospace;
-    font-size: 1.21cm;
-    margin-top: -0.54cm;
-    margin-left: 2.5cm;
-
+#fotologo{
+    margin-left:10px ;
 }
 
 #carisma{
-    font-family: monospace;
+    font-family: 'Baloo 2', cursive;
     color: rgb(176, 184, 24);
     font-size: 0.42cm;
-    margin-left: 0.6cm;
+    
 }
 
 
 #assunto {
     font-size: 1.2cm;
-    font-family: monospace ;
-    margin-left: 0.4cm;
+    font-family: 'Baloo 2', bold;
+    
 }
 
 #redes{
-font-family: monospace;
+font-family: 'Baloo 2', cursive;
 font-size: 0.5cm;
 margin-left: 3.5cm;
+}
+
+
+.central{
+    margin-top: -1.5cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 body{
@@ -88,7 +47,14 @@ body{
     justify-content: center;
     display: flex;
 }
-
+.First{
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 25px;
+    margin-top: 0.2cm;
+    justify-content: space-around;
+   
+}
 
 .campo{
    
@@ -115,7 +81,7 @@ input, select, textarea, button {
     display: block;
 }
 
-.oi{
+.flexbox{
     width: 500px;
     height: 1000px;
 }
@@ -126,18 +92,8 @@ input, select, textarea, button {
     box-shadow: 2px 2px 2px none;
     display: block;
 }
-.First{
-    border-radius: 20px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin-top: 0.2cm;
-}
 
 
-.fotologo{
-    border-radius: 3cm;
-    margin-bottom:-8px;
-}
 #logo{
     
     background-image: none;
