@@ -30,16 +30,17 @@
         <fieldset class="grupo">
             <div class="campo ">
                 <label for=nome><strong>Nome :</strong></label>
-                <input type="text" name="nome" class="form-control" id="nome" required >
+                <input type="text" name="nome" class="form-control" id="nome"  >
                 
                 <label for="sobrenome"><strong>Sobrenome :</strong></label>
-                <input type="text" name="sobrenome" class="form-control" id="sobrenome" required>
+                <input type="text" name="sobrenome" class="form-control" id="sobrenome" >
             </div>
             </div>
         </fieldset>
        
-      <fieldset class="grupo">  <div class="campo">
-        <label for="idade" "><strong>Idade :</strong></label>
+      <fieldset class="grupo">  
+        <div class="campo">
+        <label  for="idade" ><strong>Idade :</strong></label>
         <select id="idade" class="form-control">
             <option selected disabled value="">Selecione</option>
             <option>7 a 15</option>
@@ -54,15 +55,15 @@
 
         <fieldset class="grupo">
             <div class="campo">
-                <label for="Data de Nascimento"><strong>Data de Nascimento :</strong></label>
-                <input type="date" name="data" class="form-control" id="data" required>
+                <label for="Data de Nascimento" ><strong>Data de Nascimento :</strong></label>
+                <input type="date" name="data" id="dn" class="form-control" id="data" >
             </div>
         </fieldset>
 
       <fieldset class="grupo">
         <div class="campo">
             <label for="email"><strong>Email :</strong></label>
-            <input type="email" nome="email" class="form-control" id="sobrenome" required> 
+            <input type="email" nome="email" class="form-control" id="email" > 
         </div>
       </fieldset>
 
@@ -80,13 +81,13 @@
         <fieldset class="grupo">
             <div class="campo">
                 <label for="Telefone"><strong>Telefone(WhatsApp) :</strong></label>
-                <input  id="telefone"  name="telefone" class="telefone form-control" required>
+                <input  id="telefone"  name="telefone" class="telefone form-control" >
             </div>
             </fieldset>
             <fieldset class="grupo">
                 <div class="campo">
                     <label for="endereço"><strong>Endereço (Rua, Nº, Bairro, Cidade e Estado)  :</strong></label>
-                    <input type="text" name="end" id="endereco"class="form-control" required >
+                    <input type="text" name="end" id="endereco"class="form-control"  >
                 </div>
             </fieldset>
 
@@ -110,21 +111,22 @@
         <fieldset clas="grupo">
             <div class="campo">
                 <label for="dia"><strong>Qual dia do mês ?</strong></label>
-                <input type="radio" name="dia" id="Dia1" checked><label for="Dia1">Dia 5</label>
+                <label for="Dia1">Dia 5</label>
                 <input type="radio" name="dia" id="Dia2"><label for="Dia1">Dia 10</label>
-                <input type="radio" name="dia" id="Dia3"><label for="Dia1">Outro</label> <input class="form-control" type="text" name="outro" id="outro" required >
+                <input type="radio" name="dia" id="Dia3"><label for="Dia1">Outro</label> <input class="form-control" type="text" name="outro" id="outro">
             </div>
         </fieldset>
       
         <fieldset class="gurpo">
             <div class="campo">
                 <Label for="intencoes"><strong>Intenções :</strong></LAbel>
-                <textarea rows="6" class="form-control"  id="intencoes" name="intencoes" required ></textarea>    
+                <textarea rows="6" class="form-control"  id="intencoes" name="intencoes"  ></textarea>    
             </div>
             
             <fieldset class="button-box">
                 
-                <button class="botao" type="submit" onsubmit=""><strong>Enviar</strong></button>
+                <button class="botao" id="btnsend" type="submit" onsubmit=""><strong>Enviar</strong>
+                </button>
                
                
            
@@ -134,6 +136,6 @@
     
       </fieldset>
     </form>
-        
+        <script src="./script.js"></script>
 </body>
 </html>
