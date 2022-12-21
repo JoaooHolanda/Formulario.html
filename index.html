@@ -70,11 +70,13 @@
       <fieldset class="grupo">
         <div class="campo">
             <label for="turma"><strong>Qual grupo você participa?</strong></label>
-            <input type="radio" name="group" id="Vocacional" checked><label>Vocacional</label>
-            <input type="radio" name="group" id="Postulantado"><label>Postulantado</label>
-            <input type="radio" name="group" id="Discipulado 1"><label>Discipulado 1</label>
-            <input type="radio" name="group" id="Discipulado 2"><label>Discipulado 2</label>
-            <input type="radio" name="group" id="Consa"><label>Consagrado</label>
+           <select id="grupoinfo" class="form-control">
+            <option selected disabled value="">Selecione</option>
+            <option>Vocacional</option>
+            <option>Postulantado</option>
+            <option>Discipulado</option>
+            <option>Consagrado</option>
+        </select>
         </div>
         </fieldset>
         
@@ -101,19 +103,26 @@
         <fieldset class="grupo">
             <div class="campo">
                 <label for='metodos'><strong>Forma de Pagamentos :</strong></label>
-                <input type="radio" name="metodos" id="pix" checked><label for="pix">Pix</label>
-                <input type="radio" name="metodos" id="boleto" checked><label for="boleto">Boleto Bancário</label>
-                <input type="radio" name="metodos" id="transferencia" checked><label for="transferencia">Transferência Bancária</label>
-                <input type="radio" name="dia" id="Dia3"><label  for="Dia1">Outro</label> <input class="form-control" type="number" name="outro" id="outro" >
+                <select id="methodpay" class="form-control">
+                    <option selected disabled value="">Selecione</option>
+                    <option>PIX</option>
+                    <option>TED</option>
+                    <option>Boleto</option>
+                    <option>Crédito</option>
+        </select>
             </div>
         </fieldset>
 
-        <fieldset clas="grupo">
+        <fieldset class="grupo">
             <div class="campo">
                 <label for="dia"><strong>Qual dia do mês ?</strong></label>
-                <label for="Dia1">Dia 5</label>
-                <input type="radio" name="dia" id="Dia2"><label for="Dia1">Dia 10</label>
-                <input type="radio" name="dia" id="Dia3"><label for="Dia1">Outro</label> <input class="form-control" type="text" name="outro" id="outro">
+                <select id="payday" class="form-control">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Dia 5</option>
+                    <option>Dia 10</option>
+                    <option>Dia 20</option>
+                    
+                </select>
             </div>
         </fieldset>
       
