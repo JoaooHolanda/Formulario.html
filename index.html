@@ -19,7 +19,7 @@
         <div class="central">
             <img src="/assets/Logo_expandida.png" class="box">
             <h2 id="carisma" class="box">"Dar a conhecer o Amor a todo coração pobre"</h2>
-            <h3 id="assunto" class="box"><strong>Seja um Benfeitor</strong></h3>
+            <h3 id="assunto" class="box"><strong>Servos Música</strong></h3>
         </div>
        </fieldset>
       <br>
@@ -36,21 +36,6 @@
                 <input type="text" name="sobrenome" class="form-control" id="sobrenome" >
             </div>
             </div>
-        </fieldset>
-       
-      <fieldset class="grupo">  
-        <div class="campo">
-        <label  for="idade" ><strong>Idade :</strong></label>
-        <select id="idade" class="form-control">
-            <option selected disabled value="">Selecione</option>
-            <option>7 a 15</option>
-            <option>16 a 25</option>
-            <option>26 a 37</option>
-            <option>38 a 49</option>
-            <option>50 a 60</option>
-            <option>61 a 99</option>
-        </select>
-         </div>
         </fieldset>
 
         <fieldset class="grupo">
@@ -93,57 +78,42 @@
                 </div>
             </fieldset>
 
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for="valor"><strong>Valor da Contribuição :</strong></label>
-                <input type="text" id="dinheiro" name="dinheiro" class="form-control" style="display:inline-block" />
-            </div>
-        </fieldset>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="instrumento"><strong>Qual Instrumento você toca ?</strong></label>
+                    <select id="instru" class="form-control">
+                        <option selected disabled value>Selecione</option>
+                        <option>Violão</option>
+                        <option>Percussão</option>
+                        <option>Voz</option>
+                        <option>Outro</option>
+                    </select>
+                </div>
 
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for='metodos'><strong>Forma de Pagamentos :</strong></label>
-                <select id="methodpay" class="form-control">
-                    <option selected disabled value="">Selecione</option>
-                    <option>PIX</option>
-                    <option>TED</option>
-                    <option>Boleto</option>
-                    <option>Crédito</option>
-        </select>
-            </div>
-        </fieldset>
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="disponibilidade"><strong>Quais os dias e turno da semana você está Disponível ?</strong></label>
+                        <input type="text" name="dispo" class="form-control" id="dayfree" placeholder="ex:. Quinta - Noite ">
+                    </div>
+                </fieldset>
 
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for="dia"><strong>Qual dia do mês ?</strong></label>
-                <select id="payday" class="form-control">
-                    <option selected disabled value="">Selecione</option>
-                    <option>Dia 5</option>
-                    <option>Dia 10</option>
-                    <option>Dia 20</option>
-                    
-                </select>
-            </div>
-        </fieldset>
-      
-        <fieldset class="gurpo">
-            <div class="campo">
-                <Label for="intencoes"><strong>Intenções :</strong></LAbel>
-                <textarea rows="6" class="form-control"  id="intencoes" name="intencoes"  ></textarea>    
-            </div>
-            
+            </fieldset>
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="endquest"><strong>Possui disponibilidade para servir no ano de 2023 ?</strong></label>
+                    <select class="form-control" id="endquest">
+                        <option selected disabled value>Selecione</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+            </fieldset>
             <fieldset class="button-box">
                 
                 <button class="botao" id="btnsend" type="submit" onsubmit=""><strong>Enviar</strong>
-                </button>
-               
-               
-           
-        </fieldset>
-        
-
-    
-      </fieldset>
+                </fieldset>
+            </button>
     </form>
         <script src="./script.js"></script>
 </body>

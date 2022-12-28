@@ -1,5 +1,5 @@
 //endereco dos campos!
-    const button = document.querySelector('button')
+const button = document.querySelector('button')
    
 
 const addloading = () =>{
@@ -8,12 +8,17 @@ const addloading = () =>{
 
 const removeloading = () =>{
     button.innerHTML = 'Enviar'
+    changepage()
     
 }
 
-const completesend = () => {
-    window.location.href('https://www.instagram.com/com.sagradoamor/', 'blank')
-}
+const changepage = () => {
+    button.addEventListener("click", redirectFunction());
+         
+         function redirectFunction(){
+             window.location.href = './endpage.html';
+ }
+ }
 
 //tratando cada campo!
 const handlesubmit = (event ) =>{
@@ -21,27 +26,33 @@ const handlesubmit = (event ) =>{
     addloading()
     const nome = document.querySelector('input[name=nome]').value;
     const sobrenome = document.querySelector('input[name=sobrenome]').value;
-    const idade = document.querySelector('#idade').value
     const nascimento = document.querySelector('#dn').value
     const email = document.querySelector('#email').value
     const telefone = document.querySelector('input[name=telefone]').value
     const endereco = document.querySelector('input[name=end]').value
-    const intencoes = document.querySelector('textarea[name=intencoes]').value
-    const DiaDoPagamento = document.querySelector('#payday').value
     const group = document.querySelector('#grupoinfo').value
-    const metodoPagamento = document.querySelector('#methodpay').value
+    const instru = document.querySelector('#instru').value
+    const dayfree = document.querySelector('#dayfree').value
+    const endquest = document.querySelector('#endquest').value
 
-    fetch('https://api.sheetmonkey.io/form/gTYcXgzN75Dc9fYzJhJh2y',{
+    
+    
+    
+    
+
+    fetch('https://api.sheetmonkey.io/form/vR4BpkotGaK46LY351Cped',{
 
     method:'post',
     headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
     },
-    body: JSON.stringify({nome,sobrenome,idade,nascimento,email,telefone,endereco,intencoes,group,DiaDoPagamento,metodoPagamento}),
+    body: JSON.stringify({nome,sobrenome,nascimento,email,telefone,endereco,group,instru,dayfree,endquest}),
 
-    }).then(() => removeloading())
-
+    }).then(() => removeloading())  
+    
+    
+    
     
 
 }
